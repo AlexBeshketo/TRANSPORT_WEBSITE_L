@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/luteka.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="wrapper">
+
+
+    <header class="header">
+        <div class="container">
+            <div class="header_logo   ">
+                <img class='logo_svg' src="images/luteka_1.png" alt="dots icon">
+            </div>
+            <div class="header_contacts">
+                <div class="header_phone"><p>+37067123567
+                    <p></div>
+                <div class="header_mail"><p>lukas@luteka.com
+                    <p></div>
+            </div>
+
+        </div>
+        <div class="header_line"></div>
+    </header>
+
+
+    <main>
+        <div class="container_main">
+            <div class="container_1">
+                <div class="container_1_img">
+                    <img src="images/FURA.jpg" alt="">
+
+                    <div class="container_1_frame">
+                        <div class="container_1_tekst_absolute_1">
+                            <p>UAB Luteka</p>
+                            <p>Сargo transportation in Europe with tautliners/refrigerators</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--            container_2-->
+            <div class="container_2">
+                <div class="container container_2_block">
+                    <div class="container_2_map_img flex_item">
+                        <img src="images/eur1-lastč%201.png" alt="">
+                    </div>
+                    <div class="container_2_tekst_absolute flex_item_text">
+                        <p>
+                            Our trucks park consists of 20 refrigerated trucks and tautliners . Trucks EURO 5/6 with
+                            navigation. Permanent routes from Sweden, Norway to Germany, Belgium, Holland
+                        </p>
+                    </div>
+                    <div class="container_2_truck_img flex_item">
+                        <img src="images/kisspng-daf-xf-daf-trucks-tractor-unit-tractor-trailer-5b21a3d2e22025%201.png" alt="">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="container_2_frame"></div>
+
+            <!--            container_3-->
+            <div class="container_3_article"><h5>LOCATION</h5></div>
+            <div class="container container_3 ">
+                <div class="container_3_text"><p>Luteka, UAB. Basanavičiaus g. 197 Vinksnėnai, <br>LT-76117, 76116
+                    Šiauliai , Lithuania</p></div>
+                <div class="container_3_map">
+                    <img src="map.svg" alt="">
+                </div>
+            </div>
+            <div class="container_3_frame"></div>
+
+            <div class="container_3_article"><h5>CONTACT US</h5></div>
+
+            <div class="container_4 container">
+                <div class="container_4_img"><img src="images/luteka_1.png" alt=""></div>
+
+                <div class="container_4_form">
+
+                    <!--                    <form id="contact-form">-->
+                    <!--                        <a name="contact"></a>-->
+
+                    <!--                        <label>Name</label>-->
+                    <!--                        <input className="input-field" type="text" name="name"/>-->
+
+                    <!--                        <label>Subject</label>-->
+                    <!--                        <input className="input-field" type="text" name="subject"/>-->
+
+                    <!--                        <label>Email</label>-->
+                    <!--                        <input className="input-field" type="text" name="email"/>-->
+
+                    <!--                        <label>Message</label>-->
+                    <!--                        <textarea className="input-field" name="message"></textarea>-->
+                    <!--                        <input id="submit-btn" type="submit" value="Send"/>-->
+
+                    <!--                    </form>-->
+
+
+                    <form action="#" id="form" class="form__body">
+                        <h1 class="form__title">Request for us</h1>
+                        <div class="form__item">
+                            <label for="formName" class="form__label">Имя*:</label>
+                            <input id="formName" type="text" name="name" class="form__input _req">
+                        </div>
+                        <div class="form__item">
+                            <label for="formEmail" class="form__label">E-mail*:</label>
+                            <input id="formEmail" type="text" name="email" class="form__input _req _email">
+                        </div>
+                        <div class="form__item">
+                            <div class="form__label">Part time of FTL load?</div>
+                            <div class="options">
+                                <div class="options__item">
+                                    <input id="formRightHanded" checked type="radio" value="right" name="hand"
+                                           class="options__input">
+                                    <label for="formRightHanded" class="options__label"><span>Правша</span></label>
+                                </div>
+                                <div class="options__item">
+                                    <input id="formLeftHanded" type="radio" value="left" name="hand"
+                                           class="options__input">
+                                    <label for="formLeftHanded" class="options__label"><span>Левша</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_flex_from_to">
+                            <div class="form__item ">
+                                <div class="form__label">FROM:</div>
+                                <select name="age" class="form__select">
+                                    <option value="от 18 до 25" selected>Молодой</option>
+                                    <option value="от 25 до 45">Старый</option>
+                                    <option value="от 45">Супер стар</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <div class="form__label">TO:</div>
+                                <select name="age" class="form__select">
+                                    <option value="от 18 до 25" selected>Молодой</option>
+                                    <option value="от 25 до 45">Старый</option>
+                                    <option value="от 45">Супер стар</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form__item">
+                            <label for="formMessage" class="form__label">Сообщение:</label>
+                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                        </div>
+
+
+                        <div class="form__item">
+                            <div class="checkbox">
+                                <input id="formAgreement" checked type="checkbox" name="agreement"
+                                       class="checkbox__input _req">
+                                <label for="formAgreement" class="checkbox__label"><span>Я даю свое согласие на обработку персональных данных в соответствии с <a
+                                        href="">Условиями</a>*</span></label>
+                            </div>
+                        </div>
+                        <button type="submit" class="form__button">Отправить</button>
+                    </form>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+
+<script src="js/select.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
